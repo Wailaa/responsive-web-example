@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+  body {
+    font-size: 0.7rem;
+  }
+  nav {
+    font-size: 1rem;
+  }
+
+  .menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 3vh;
+    right: 3vh;
+  }
+  nav input {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    width: 15%;
+    height: 100%;
+  }
+  .mobile-logo {
+    position: absolute;
+    right: 0;
+    width: 15%;
+    content: url("./hamburger-menu-icon.png");
+  }
+  nav ul {
+    display: none;
+  }
+
+  nav input:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    top: 20vh;
+    width: 50%;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    background-color: #152732;
+  }
+  nav input:checked ~ .mobile-logo {
+    content: url("hamburger-menu-icon-flipped.png");
+  }
+  li {
+    width: 50%;
+  }
+
+  .home,
+  .about,
+  .services,
+  .contact {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px 20px;
+  }
+
+  .yellowPic {
+    display: none;
+  }
+  .home-header {
+    grid-row: 1;
+  }
+
+  .about-image {
+    grid-row: 2;
+  }
+
+  .about-header {
+    grid-row: 1;
+  }
+  .services img {
+    width: 50%;
+  }
+  .services-image {
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services-header {
+    grid-row: 1;
+  }
+
+  .contact-form {
+    grid-row: 3;
+  }
+  .contact-details {
+    display: flex;
+  }
+  .contact-details > div {
+    width: 50%;
+  }
+  .footer {
+    display: none;
+  }
+}

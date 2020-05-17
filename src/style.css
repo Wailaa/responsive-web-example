@@ -1,0 +1,149 @@
+nav {
+  display: flex;
+  background-color: #152732;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+nav img {
+  height: 10vh;
+}
+
+a {
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.home a {
+  color: black;
+}
+
+.home,
+.about,
+.services,
+.contact {
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+.home img,
+.about img,
+.services img {
+  width: 100%;
+  max-width: 620px;
+}
+
+.yellow-bg {
+  background-color: #f4bb3a;
+}
+.green-bg {
+  background-color: #9fbc2e;
+}
+.orange-pink-bg {
+  background-color: #ed5757;
+}
+.blue-bg {
+  background-color: #5eb1cf;
+}
+.yellow-bg,
+.green-bg,
+.orange-pink-bg,
+.blue-bg {
+  text-align: center;
+  padding: 5%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+.yellowPic,
+.about-image,
+.services-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 10vh;
+  margin-top: 1vh;
+  background-color: #152732;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info {
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input,
+textarea {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+textarea {
+  height: 15vh;
+  width: 100%;
+}
+
+button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: #22223b;
+  color: #fefefe;
+}
+button:hover {
+  background-color: #4a4e69;
+  color: #fefefe;
+}
+
+.fullName,
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-details > div {
+  width: 50%;
+}
