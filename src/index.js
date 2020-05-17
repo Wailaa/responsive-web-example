@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import "./style.css";
-import "./small.css";
-import "./medium.css";
-import "./large.css";
-import "./xlarge.css";
+import "../src/style/index.css";
+
+import "../src/style/style.css";
+import "../src/style/small.css";
+import "../src/style/medium.css";
+import "../src/style/large.css";
+import "../src/style/xlarge.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Pic from "../../zebra-logo-png.png";
+import Pic from "../../images/zebra-logo-png.png";
 
 function Home() {
   return (

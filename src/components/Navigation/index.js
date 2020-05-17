@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../zebra-logo-png.png";
+import logo from "../../images/zebra-logo-png.png";
 
 function Navigation() {
   return (

@@ -26,7 +26,7 @@
     position: absolute;
     right: 0;
     width: 15%;
-    content: url("./hamburger-menu-icon.png");
+    content: url("../images/hamburger-menu-icon.png");
   }
   nav ul {
     display: none;
@@ -45,7 +45,7 @@
     background-color: #152732;
   }
   nav input:checked ~ .mobile-logo {
-    content: url("hamburger-menu-icon-flipped.png");
+    content: url("../images/hamburger-menu-icon-flipped.png");
   }
   li {
     width: 50%;

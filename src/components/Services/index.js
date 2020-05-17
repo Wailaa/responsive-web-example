@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../../zebra.png";
+import Pic from "../../images/zebra.png";
 
 function About() {
   return (
